@@ -1,0 +1,127 @@
+body {
+  background-image: url("pattern-background-desktop.svg");
+  background-color: hsl(225, 100%, 94%);
+  background-repeat: no-repeat;
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+img {
+  position: relative;
+  width: 280px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+h1 {
+  margin-top: 0;
+  padding-top: 20px;
+  font-family: 'Red Hat Display'sans-serif;
+  font-size: 19px;
+  font-weight: 900;
+}
+
+p {
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+  color: grey;
+}
+
+a {
+  font-size: 11px;
+  position: relative;
+  top: 23px;
+  left: 8px;
+}
+
+a:hover {
+  color: grey;
+}
+
+.proceed-to-payment {
+  position: inherit;
+  color: inherit;
+  text-decoration: inherit;
+  font-size: inherit;
+}
+
+.proceed-to-payment:hover {
+  color: #B2B1B9;
+}
+
+.box {
+  background-color: white;
+  width: 280px;
+  margin: 100px auto;
+  padding-bottom: 20px;
+  text-align: center;
+  border-top-left-radius: 10%;
+  border-top-right-radius: 10%;
+}
+
+
+.grey-box {
+  width: 220px;
+  height: 60px;
+  background-color: #F4F9F9;
+  border-radius: 6px;
+  margin: auto;
+  display: flex;
+}
+
+.payment {
+  color: white;
+  font-size: 9px;
+  background-color: hsl(245, 75%, 52%);
+  width: 220px;
+  height: 30px;
+  border-radius: 6px;
+  margin: 20px auto;
+  line-height: 30px;
+  font-weight: 900;
+  box-shadow: 0 15px 15px hsl(225, 100%, 94%);
+}
+
+.anywhere {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.bold900 {
+  font-size: 11px;
+  font-weight: 900;
+  color: black;
+  position: relative;
+  left: 32px;
+  top: 5px;
+}
+
+.cancel {
+  color: grey;
+  font-size: 9px;
+  font-weight: 900;
+  position: inherit;
+  text-decoration: inherit;
+}
+
+.cancel:hover {
+  color: #595260;
+}
+
+.second-phrase {
+  color: grey;
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+  position: relative;
+  top: 20px;
+  right: 31px;
+}
+
+.music {
+  width: 30px;
+  height: 30px;
+  position: relative;
+  left: 20px;
+  top: 15px;
+}
